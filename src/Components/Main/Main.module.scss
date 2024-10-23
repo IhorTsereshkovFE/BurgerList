@@ -1,0 +1,167 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  @media (max-width: 1355px) {
+    padding: 0 30px;
+  }
+  @media (max-width: 1220px) {
+    padding: 0 10px;
+  }
+  @media (max-width: 930px) {
+    padding: 0 34px;
+  }
+  @media (max-width: 535px) {
+    padding: 0 7px;
+  }
+  @media (max-width: 1220px) {
+    justify-content: space-evenly;
+  }
+  @media (max-width: 930px) {
+    flex-direction: column;
+  }
+  @media (max-width: 535px) {
+    align-items: center;
+  }
+  .menuBoxRight {
+    max-width: 960px;
+    width: 100%;
+    margin-left: 5px;
+    @media (max-width: 1220px) {
+      max-width: 630px;
+    }
+    @media (max-width: 930px) {
+      max-width: 830px;
+      margin-left: 0px;
+    }
+    .menuName {
+      font-family: Nunito;
+      font-size: 40px;
+      font-weight: 600;
+      padding-left: 15px;
+      @media (max-width: 930px) {
+        padding-left: 0px;
+      }
+    }
+    .wrapperCard {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(200px, 300px));
+      justify-content: space-around;
+      row-gap: 30px;
+      @media (max-width: 1220px) {
+        grid-template-columns: repeat(2, minmax(200px, 300px));
+        justify-content: space-between;
+      }
+      @media (max-width: 930px) {
+        grid-template-columns: repeat(4, minmax(140px, 150px));
+        justify-content: space-between;
+      }
+      @media (max-width: 670px) {
+        grid-template-columns: repeat(3, minmax(140px, 150px));
+      }
+      @media (max-width: 535px) {
+        grid-template-columns: repeat(2, minmax(140px, 150px));
+        justify-content: space-evenly;
+      }
+      .burgerCard {
+        max-width: 300px;
+        width: 100%;
+        padding: 12px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (max-width: 930px) {
+          max-width: 155px;
+          width: 100%;
+          padding: 6px;
+          border-radius: 12px;
+        }
+        @media (max-width: 430px) {
+          max-width: 145px;
+        }
+        .imgWrapper {
+          margin-bottom: 16px;
+          @media (max-width: 930px) {
+            margin-bottom: 5px;
+          }
+          img {
+            @media (max-width: 930px) {
+              max-width: 145px;
+              width: 100%;
+            }
+          }
+        }
+        .price {
+          width: 100%;
+          font-family: Nunito;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 24px;
+          text-align: left;
+          margin-bottom: 8px;
+          @media (max-width: 930px) {
+            font-size: 16px;
+            margin-bottom: 2px;
+          }
+        }
+        .name {
+          width: 100%;
+          color: rgb(0, 0, 0);
+          font-family: Nunito;
+          font-size: 16px;
+          font-weight: 400;
+          text-align: left;
+          margin-bottom: 29px;
+          @media (max-width: 930px) {
+            font-size: 12px;
+            margin-bottom: 15px;
+          }
+        }
+        .massa {
+          width: 100%;
+          color: rgb(177, 177, 177);
+          font-family: Nunito;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: left;
+          margin-bottom: 8px;
+          @media (max-width: 930px) {
+            font-size: 12px;
+            margin-bottom: 4px;
+          }
+        }
+        button {
+          width: 100%;
+          height: 40px;
+          border-radius: 12px;
+          background: rgb(242, 242, 243);
+          color: rgb(0, 0, 0);
+          font-family: Nunito;
+          font-size: 16px;
+          font-weight: 400;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s;
+          @media (max-width: 930px) {
+            height: 30px;
+            font-size: 12px;
+            border-radius: 8px;
+          }
+        }
+        button:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        button:active {
+          transform: translateY(-1px);
+          transform: scale(0.93);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}

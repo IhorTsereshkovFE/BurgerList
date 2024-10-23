@@ -1,0 +1,11 @@
+[
+  { "img": "/src/assets/BurgersSl.png", "title": "Бургеры" },
+  { "img": "/src/assets/onionSl.png", "title": "Закуски" },
+  { "img": "/src/assets/hotDogSl.png", "title": "Хот-доги" },
+  { "img": "/src/assets/comboSl.png", "title": "Комбо" },
+  { "img": "/src/assets/shaurmaSl.png", "title": "Шаурма" },
+  { "img": "/src/assets/pizzaSl.png", "title": "Пицца" },
+  { "img": "/src/assets/vokSl.png", "title": "Вок" },
+  { "img": "/src/assets/sweetSl.png", "title": "Десерты" },
+  { "img": "/src/assets/ketchupSl.png", "title": "Соусы" }
+]

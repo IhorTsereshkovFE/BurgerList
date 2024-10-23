@@ -1,0 +1,44 @@
+[
+  {
+    "img": "/src/assets/burgerMeet.png  ",
+    "name": "Мясная бомба",
+    "massa": "520г",
+    "price": "689",
+    "countN": 1
+  },
+  {
+    "img": "/src/assets/burgerChesse.png",
+    "name": "Супер сырный",
+    "massa": "512г",
+    "price": "550",
+    "countN": 1
+  },
+  {
+    "img": "/src/assets/burgerSutniu.png",
+    "name": "Сытный",
+    "massa": "580г",
+    "price": "639",
+    "countN": 1
+  },
+  {
+    "img": "/src/assets/heavyBlow.png",
+    "name": "Тяжелый удар",
+    "massa": "470г",
+    "price": "480",
+    "countN": 1
+  },
+  {
+    "img": "/src/assets/classic.png",
+    "name": "Вечная классика",
+    "massa": "450г",
+    "price": "450",
+    "countN": 1
+  },
+  {
+    "img": "/src/assets/italian.png",
+    "name": "Итальянский",
+    "massa": "510г",
+    "price": "560",
+    "countN": 1
+  }
+]

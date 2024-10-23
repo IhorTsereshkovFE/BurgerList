@@ -1,0 +1,103 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  margin-bottom: 10px;
+  @media (max-width: 868px) {
+    background-image: url("../../assets/bgHeader3.png");
+    background-position: auto;
+    background-size: cover;
+  }
+  @media (max-width: 320px) {
+    background-image: url("../../assets/bgHeader2.png");
+  }
+  .logoHeader {
+    margin-top: 27px;
+    margin-bottom: 30px;
+  }
+  .headerTitle {
+    max-width: 784px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 90px;
+    @media (max-width: 868px) {
+      width: 90%;
+    }
+    @media (max-width: 515px) {
+      flex-direction: column-reverse;
+      row-gap: 15px;
+    }
+    .leftBox {
+      img {
+        @media (max-width: 868px) {
+          width: 203px;
+        }
+      }
+    }
+    .rightBox {
+      @media (max-width: 515px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        font-family: Nunito;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 60px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin-bottom: 52px;
+        @media (max-width: 868px) {
+          font-size: 36px;
+          line-height: 43px;
+          margin-bottom: 30px;
+        }
+        @media (max-width: 515px) {
+          text-align: center;
+          font-size: 30px;
+        }
+        p {
+          color: rgb(255, 92, 0);
+          @media (max-width: 868px) {
+            font-size: 36px;
+          }
+          @media (max-width: 515px) {
+            font-size: 30px;
+          }
+        }
+      }
+      .delivery {
+        color: rgba(255, 255, 255, 1);
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        @media (max-width: 868px) {
+          font-size: 12px;
+        }
+        @media (max-width: 515px) {
+          text-align: center;
+        }
+      }
+      button {
+        width: 276px;
+        height: 40px;
+        border-radius: 12px;
+        border: none;
+        @media (max-width: 868px) {
+          width: 230px;
+        }
+        @media (max-width: 571px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
